@@ -1,0 +1,29 @@
+
+------------Funcionalidades de ionic-------------
+ionic generate ==> Esto nos permite generar ciertas actividades en la poagina como page, component, service, class, module etc.
+
+page => Crea una nueva pagina.
+
+service => Esta creación funciona para reutilzación de código de manera de escribir código que necesitas usar en varios componentes. En lugar de duplicar el código, los escribes una vez en un servicio y lo inyectas donde sea necesario.
+
+-------Funcionalidades de Etiquetas--------
+
+ion-list ==> Te brinda un scroll si tenemos varios elementos.
+
+ion-avatar ==> La etiquta avatar son componentes circulares que suelen envolver una imagen o un icono.
+
+ion-label ==> La etiqueta es un elemento que se utiliza principalmente para añadir contenido de texto a los componentes del artículo.
+
+
+-----------Funciones de Angular-----------
+
+[routerLink] ==> La funcionalidad es que nos redireciona al darle click al elemento que lo tenga agregado.
+
+ActivatedRoute ==> Es un servcio que se utliza para obtener información sobre la ruta asociada con un componente cargado en el outlet de una aplicación Angular.
+
+paramMap => El objeto paramMap dentro de ActivatedRoute es una parte de la API de Angular Router que see utiliza para manejar los parámetros de ruta en una forma mas robusta y segura.
+
+
+
+----Funcionlidades de creación de archivo----
+place.model.ts => Es una estructura que debe tener los objetos. La interfaces actúan como contratos de tipado para asegurar que la entidades (como clases, objetos y funciones) cumplan con una estructura específica.
