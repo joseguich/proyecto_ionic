@@ -7,12 +7,10 @@ import { Place } from './place.model';
   styleUrls: ['./places.page.scss'],
 })
 export class PlacesPage implements OnInit {
-
-  places: Place[] = []
-  constructor(private placeService: PlacesService) { }
+  places: Place[] = [];
+  constructor(private placeService: PlacesService) {}
 
   ngOnInit() {
     this.places = this.placeService.getPlaces();
   }
-
 }
